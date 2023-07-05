@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 768px;
+    background: radial-gradient(circle, skyblue, steelblue);
+    color: #222;
+}
+
+.addfile {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    font-weight: bold;
+    border: 6px solid;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+    text-align:start;
+    padding: 0;
+    margin: 0;
+}
+span{
+    font-weight: bolder;
+}
+
+.month{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border:#222 2px solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+input {
+    display: none;
+}
+
+.inputtext{
+    justify-self: start;
+    display: grid;
+    gap: 1px 30px ;
+    grid-template: auto / repeat(4,1fr);
+    border:#222 5px solid;
+    border-radius: 25px;
+    background-color: bisque;
+
+       
+}
+.grid{
+    justify-self: start;
+    display: grid;
+    gap: 15px ;
+    grid-template: auto / repeat(4,300px);
+    border:#222 5px solid;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: cornsilk;
+       
+}
